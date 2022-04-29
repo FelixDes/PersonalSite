@@ -1,0 +1,44 @@
+{
+  "text": {
+    "title": {
+      "rus": {
+        "text": "Десятириков Феликс"
+      },
+      "eng": {
+        "text": "Desyatirikov Felix"
+      }
+    },
+    "header1": {
+      "rus": {
+        "text": "Десятириков Феликс"
+      },
+      "eng": {
+        "text": "Desyatirikov Felix"
+      }
+    },
+    "header2": {
+      "rus": {
+        "text": "Резюме"
+      },
+      "eng": {
+        "text": "CV"
+      }
+    },
+    "header_inner": {
+      "rus": {
+        "text": "Desyatirikov Felix"
+      },
+      "eng": {
+        "text": "Десятириков Феликс"
+      }
+    },
+    "lang_changer": {
+      "rus": {
+        "text": "eng"
+      },
+      "eng": {
+        "text": "rus"
+      }
+    }
+  }
+}

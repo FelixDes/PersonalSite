@@ -1,3 +1,9 @@
+h1 {
+    font-weight: bold;
+}
+
+body {background-color: #6c6c6c;}
+
 .main_content {
     display: flex;
     flex-direction: row;
@@ -22,16 +28,24 @@ header {
     flex-direction: row;
 }
 
+.splitter {
+    width: 2px;
+    background: #000000;
+}
+
 .content_block {
     display: flex;
     flex-direction: column;
-    padding: 5%;
+    padding: 10px;
 }
 
 .content_block h3 {
     text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
 }
 
 .content_block .inner_content_block {
-
+    font-weight: lighter;
+    font-size: large;
 }
