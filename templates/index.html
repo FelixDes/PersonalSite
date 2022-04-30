@@ -1,5 +1,113 @@
 {% extends "base.html" %}
 
 {% block content %}
-{{content|safe}}
+<div class="content">
+    <header>
+        <div class="header_inner">
+            <h1>{{dct["header"]["header1"]}}</h1>
+            <div class="splitter"></div>
+            <h1 style="font-weight: bold">{{dct["header"]["header2"]}}</h1>
+        </div>
+        <div class="header_inner">
+            <h4>{{dct["header_inner"]["text"]}}</h4>
+            <button id="lang_change">{{dct["lang_changer"]["text"]}}</button>
+        </div>
+    </header>
+    <div class="main_content">
+        <div class="content_panel">
+            <div class="content_block">
+                <h3>{{dct["biography"]["title"]}}</h3>
+                <div class="inner_content_block">
+                    {{dct["biography"]["text"]}}
+                </div>
+            </div>
+            <div class="content_block">
+                <h3>{{dct["education"]["title"]}}</h3>
+                <div class="inner_content_block">
+                    {{dct["education"]["text"]}}
+                </div>
+            </div>
+        </div>
+        <div class="content_panel">
+            <div class="main_content">
+                <div class="content_panel">
+                    <div class="content_block">
+                        <h3>{{dct["supervisors"]["title"]}}</h3>
+                        <div class="inner_content_block">
+                            {% for elem in dct["supervisors"]["text"] %}
+                            <h2><strong>{{elem}}</strong></h2>
+                            {%endfor%}
+                        </div>
+                    </div>
+                    <div class="content_block">
+                        <h3>{{dct["address"]["title"]}}</h3>
+                        <div class="inner_content_block">
+                            {% for elem in dct["address"]["text"] %}
+                            <h2><strong>{{elem}}</strong></h2>
+                            {%endfor%}
+                        </div>
+                    </div>
+                    <div class="content_block">
+                        <h3>{{dct["links"]["title"]}}</h3>
+                        <div class="inner_content_block">
+                            {% for elem in dct["links"]["links"] %}
+                            <a href="{{elem[1]}}">{{elem[0]}}</a>
+                            {%endfor%}
+                        </div>
+                    </div>
+                </div>
+                <div class="content_panel">
+                    <div id="photo">
+                        <img src="static/assets/photo.png" width="100%" alt="photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_content">
+        <div class="content_panel">
+            <div class="content_block">
+                <h3>{{dct["work"]["title"]}}</h3>
+                <div class="inner_content_block">
+                    {% for row in dct["work"]["text"] %}
+                    <div class="content_table_row">
+                        <img src={{row["src"]}} width="40px" height="40px" alt="photo">
+                        {{row["text"]}}
+                    </div>
+                    {%endfor%}
+                </div>
+            </div>
+            <div class="content_block">
+                <h3>{{dct["internships"]["title"]}}</h3>
+                <div class="inner_content_block">
+                    {% for row in dct["internships"]["text"] %}
+                    <div class="content_table_row">
+                        <img src={{row["src"]}} width="40px" height="40px" alt="photo">
+                        {{row["text"]}}
+                    </div>
+                    {%endfor%}
+                </div>
+            </div>
+        </div>
+        <div class="content_panel">
+            <div class="content_block">
+                <h3>{{dct["article"]["title"]}}</h3>
+                <div class="inner_content_block">
+                    <div class="scroll_area">
+                        {% for article in dct["article"]["articles"] %}
+                        <div class="text_block">
+                            {{article["text"]}}
+                            <a href="{{article["link"][1]}}">{{article["link"][0]}}</a>
+                        </div>
+                        {%endfor%}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+
+</footer>
+</div>
 {% endblock %}

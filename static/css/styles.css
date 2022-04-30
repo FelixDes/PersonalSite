@@ -63,6 +63,8 @@ header {
 }
 
 .content_block .inner_content_block {
+    display: flex;
+    flex-direction: column;
     font-weight: lighter;
     font-size: large;
     word-wrap: break-word;
@@ -71,4 +73,19 @@ header {
 #photo {
     border: 1px solid #111;
     padding: 5px;
+}
+
+.content_table_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.scroll_area {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.text_block {
+    margin-block-start: 5px;
+    margin-block-end: 5px;
 }
