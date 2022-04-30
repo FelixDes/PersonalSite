@@ -1,8 +1,17 @@
+h1, h2, h3, h4, h5 {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
 h1 {
     font-weight: bold;
 }
 
-body {background-color: #6c6c6c;}
+body {
+    /*background-color: #6c6c6c;*/
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
 
 .main_content {
     display: flex;
@@ -14,7 +23,8 @@ body {background-color: #6c6c6c;}
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 40vw;
+    width: 50%;
+    padding: 20px;
 }
 
 header {
@@ -31,6 +41,13 @@ header {
 .splitter {
     width: 2px;
     background: #000000;
+    margin: 5px 20px;
+}
+
+#lang_change {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 10px;
 }
 
 .content_block {
@@ -48,4 +65,10 @@ header {
 .content_block .inner_content_block {
     font-weight: lighter;
     font-size: large;
+    word-wrap: break-word;
+}
+
+#photo {
+    border: 1px solid #111;
+    padding: 5px;
 }

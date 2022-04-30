@@ -1,49 +1,5 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="content">
-    <header>
-        <div class="header_inner">
-            <h1>{{header1}}</h1>
-            <div class="splitter"></div>
-            <h1 style="font-weight: bold">{{header2}}</h1>
-        </div>
-        <div class="header_inner">
-            <h4>{{header_inner}}</h4>
-            <div class="splitter"></div>
-            <button class="lang_change">{{lang_changer}}</button>
-        </div>
-    </header>
-    <div class="main_content">
-        <div class="content_panel">
-            <div class="content_block">
-                <h3>bio</h3>
-                <div class="inner_content_block">
-                    biobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobio
-                </div>
-            </div>
-            <div class="content_block">
-                <h3>edu</h3>
-                <div class="inner_content_block">
-                    eduedueduedueduedueduedueduedueduedueduedueduedueduedu
-                </div>
-            </div>
-            <div class="content_block">
-                <h3>work</h3>
-                <div class="inner_content_block">
-                    workworkworkworkworkworkworkworkworkworkworkworkworkwork
-                </div>
-            </div>
-        </div>
-        <div class="content_panel">
-            <div class="content_block">
-                <h3></h3>
-                <div class="inner_content_block"></div>
-            </div>
-        </div>
-    </div>
-    <footer>
-
-    </footer>
-</div>
+{{content|safe}}
 {% endblock %}
