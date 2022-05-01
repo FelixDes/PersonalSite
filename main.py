@@ -2,18 +2,32 @@ import json
 import os
 import re
 
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = \
     "_th{zi{qxXpNwPPWBkmdRtw}akIfadgOjtrdygLmGhb{OBawz^GIU|qpFYiZcBAhb{r]ZNr]ZzgRzqhqeZBBpo;hv_oeBnXZz{'"
 
 
-@app.route("/")
+@app.route("/", methods=['GET', 'POST'])
 def index():
-    return render_template(
-        "index.html", dct=get_dict_for_from_json(get_string_from_path("static/text/text.json"), "rus"))
+    if request.method == 'POST':
+        if request.form.get('change') == 'eng':
+            return render_template(
+                "index.html", dct=get_dict_for_from_json(get_string_from_path("static/text/text.json"), "eng"))
+        elif request.form.get('change') == 'rus':
+            return render_template(
+                "index.html", dct=get_dict_for_from_json(get_string_from_path("static/text/text.json"), "rus"))
 
+    return render_template(
+        "index.html", dct=get_dict_for_from_json(get_string_from_path("static/text/text.json"), "eng"))
+
+
+# @app.route("/")
+# def index():
+#     return render_template(
+#         "index.html", dct=get_dict_for_from_json(get_string_from_path("static/text/text.json"), "rus"))
+#
 
 # def build_html_for_json(html_path, json_path, lang) -> str:
 #     regex = r'\|\|\w+\|\|'

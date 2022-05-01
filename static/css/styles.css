@@ -7,10 +7,16 @@ h1 {
     font-weight: bold;
 }
 
+h4 {
+    font-weight: 300;
+}
+
 body {
     /*background-color: #6c6c6c;*/
     padding-left: 15vw;
     padding-right: 15vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .main_content {
@@ -22,7 +28,6 @@ body {
 .content_panel {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 50%;
     padding: 20px;
 }
@@ -47,7 +52,7 @@ header {
 #lang_change {
     margin-right: 20px;
     margin-left: 20px;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .content_block {
@@ -65,9 +70,14 @@ header {
 .content_block .inner_content_block {
     display: flex;
     flex-direction: column;
-    font-weight: lighter;
     font-size: large;
     word-wrap: break-word;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #366301;
 }
 
 #photo {
@@ -82,7 +92,12 @@ header {
 
 .scroll_area {
     overflow-y: scroll;
-    height: 500px;
+    height: 400px;
+}
+
+form {
+    display: flex;
+    align-items: center;
 }
 
 .text_block {

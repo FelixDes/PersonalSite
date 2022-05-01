@@ -10,7 +10,10 @@
         </div>
         <div class="header_inner">
             <h4>{{dct["header_inner"]["text"]}}</h4>
-            <button id="lang_change">{{dct["lang_changer"]["text"]}}</button>
+            <form method="post" action="/">
+                <input id="lang_change" type="submit" value={{dct["lang_changer"]["text"]}} name="change"
+                       placeholder="rus">
+            </form>
         </div>
     </header>
     <div class="main_content">
@@ -24,7 +27,13 @@
             <div class="content_block">
                 <h3>{{dct["education"]["title"]}}</h3>
                 <div class="inner_content_block">
-                    {{dct["education"]["text"]}}
+                    {% for row in dct["education"]["text"] %}
+                    <div class="content_table_row">
+                        <img src={{row["src"]}} width="40px" height="40px" alt="photo">
+                        {{row["text"]}}
+                        <a href="{{row["link"][1]}}">{{row["link"][0]}}</a>
+                    </div>
+                    {%endfor%}
                 </div>
             </div>
         </div>
@@ -35,7 +44,8 @@
                         <h3>{{dct["supervisors"]["title"]}}</h3>
                         <div class="inner_content_block">
                             {% for elem in dct["supervisors"]["text"] %}
-                            <h2><strong>{{elem}}</strong></h2>
+                            {{elem}}
+                            <br>
                             {%endfor%}
                         </div>
                     </div>
@@ -43,7 +53,8 @@
                         <h3>{{dct["address"]["title"]}}</h3>
                         <div class="inner_content_block">
                             {% for elem in dct["address"]["text"] %}
-                            <h2><strong>{{elem}}</strong></h2>
+                            {{elem}}
+                            <br>
                             {%endfor%}
                         </div>
                     </div>
@@ -73,6 +84,7 @@
                     <div class="content_table_row">
                         <img src={{row["src"]}} width="40px" height="40px" alt="photo">
                         {{row["text"]}}
+                        <a href="{{row["link"][1]}}">{{row["link"][0]}}</a>
                     </div>
                     {%endfor%}
                 </div>
@@ -84,6 +96,7 @@
                     <div class="content_table_row">
                         <img src={{row["src"]}} width="40px" height="40px" alt="photo">
                         {{row["text"]}}
+                        <a href="{{row["link"][1]}}">{{row["link"][0]}}</a>
                     </div>
                     {%endfor%}
                 </div>
@@ -91,13 +104,26 @@
         </div>
         <div class="content_panel">
             <div class="content_block">
-                <h3>{{dct["article"]["title"]}}</h3>
+                <h3>{{dct["articles"]["title"]}}</h3>
                 <div class="inner_content_block">
                     <div class="scroll_area">
-                        {% for article in dct["article"]["articles"] %}
+                        {% for article in dct["articles"]["articles"] %}
                         <div class="text_block">
                             {{article["text"]}}
-                            <a href="{{article["link"][1]}}">{{article["link"][0]}}</a>
+                            <a href={{article["link"][1]}}>{{article["link"][0]}}</a>
+                        </div>
+                        {%endfor%}
+                    </div>
+                </div>
+            </div>
+            <div class="content_block">
+                <h3>{{dct["reports"]["title"]}}</h3>
+                <div class="inner_content_block">
+                    <div class="scroll_area">
+                        {% for report in dct["reports"]["reports"] %}
+                        <div class="text_block">
+                            {{report["text"]}}
+                            <a href={{report["link"][1]}}>{{report["link"][0]}}</a>
                         </div>
                         {%endfor%}
                     </div>
@@ -107,7 +133,10 @@
     </div>
 </div>
 <footer>
-
 </footer>
+<!--<script>function changeName() {-->
+<!--    document.getElementById('lang_change').value = document.getElementById('lang_change').value === "eng" ? "rus" : "eng";-->
+<!--}-->
+</script>
 </div>
 {% endblock %}
