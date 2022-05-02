@@ -9,16 +9,15 @@ app.config['SECRET_KEY'] = \
     "_th{zi{qxXpNwPPWBkmdRtw}akIfadgOjtrdygLmGhb{OBawz^GIU|qpFYiZcBAhb{r]ZNr]ZzgRzqhqeZBBpo;hv_oeBnXZz{'"
 
 
-@app.route("/")
+@app.route("/", methods=['GET', 'POST'])
 def index():
-    # , methods=['GET', 'POST']
-    # if request.method == 'POST':
-    #     if request.form.get('change') == 'eng':
-    #         return render_template(
-    #             "index.html", dct=get_dict_for_from_json(get_string_from_path("static/text/text.json"), "eng"))
-    #     elif request.form.get('change') == 'rus':
-    #         return render_template(
-    #             "index.html", dct=get_dict_for_from_json(get_string_from_path("static/text/text.json"), "rus"))
+    if request.method == 'POST':
+        if request.form.get('change') == 'eng':
+            return render_template(
+                "index.html", dct=get_dict_for_from_json(get_string_from_path("static/text/text.json"), "eng"))
+        elif request.form.get('change') == 'rus':
+            return render_template(
+                "index.html", dct=get_dict_for_from_json(get_string_from_path("static/text/text.json"), "rus"))
 
     return render_template(
         "index.html", dct=get_dict_for_from_json(get_string_from_path("static/text/text.json"), "rus"))
@@ -32,6 +31,7 @@ def get_string_from_path(path):
 def get_dict_for_from_json(json_string, lang):
     jsn = dict(json.loads(json_string))
     return {key: jsn[key][lang] for key in jsn.keys()}
+
 
 # def link_preprocessor(dct):
 #     for node in dct:

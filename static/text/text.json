@@ -87,7 +87,7 @@
   },
   "address": {
     "rus": {
-      "title": "Addresses",
+      "title": "Адреса",
       "text": [
         "science2000@ya.ru",
         "felixdes@ieee.org"
@@ -103,7 +103,7 @@
   },
   "links": {
     "rus": {
-      "title": "Links",
+      "title": "Ссылки",
       "links": [
         [
           "GitHub",
@@ -131,17 +131,15 @@
   },
   "supervisors": {
     "rus": {
-      "title": "Supervisors",
+      "title": "Руководители",
       "text": [
-        "Supervisor1",
-        "Supervisor2"
+        "<u>д.ф.-м.н., проф. А.И.Шашкин</u><br>(2021 - сейчас)"
       ]
     },
     "eng": {
       "title": "Supervisors",
       "text": [
-        "Supervisor1",
-        "Supervisor2"
+        "<u>Professor A.I.Shashkin</u><br>(2021 - now)"
       ]
     }
   },
@@ -243,7 +241,8 @@
   },
   "articles": {
     "rus": {
-      "title": "Articles",
+      "title": "Статьи",
+      "sub_title": "количество 22 , индекс Хирша 3 (e-library)",
       "articles_for_years": [
         {
           "year": 2022,
@@ -430,7 +429,8 @@
       ]
     },
     "eng": {
-      "title": "Articles",
+      "title": "Papers",
+      "sub_title": "count 13 , h-index 2 (Scopus)",
       "articles_for_years": [
         {
           "year": 2022,
