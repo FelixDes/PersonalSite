@@ -36,44 +36,36 @@
   "biography": {
     "rus": {
       "title": "Биография",
-      "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum."
+      "text": [
+        "Я родился и вырос в старинном городе Воронеже, расположенном в самом центре России у берегов полноводных рек Дон и Воронеж.",
+        "В настоящее время я являюсь студентом Воронежского государственного университета, где очно обучаюсь на двух факультетах – факультете Прикладной математики, информатики и механики и на факультете Компьютерных наук.",
+        "Я с отличием закончил Воронежский музыкальный колледж по классу фортепиано. Увлекаюсь литературным творчеством (см. <a href=\"https://proza.ru\">https://proza.ru</a>).",
+        "В моём фотоальбоме обо мне рассказано немного больше."
+      ]
     },
     "eng": {
-      "title": "Biography",
-      "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum."
+      "title": "Биография",
+      "text": [
+        "I was born and raised in the ancient city of Voronezh, located in the very center of Russia on the banks of the navigable rivers Don and Voronezh.",
+        "Currently, I am a student at Voronezh State University, where I study full-time at two faculties - the Faculty of Applied Mathematics, Informatics and Mechanics and the Faculty of Computer Science.",
+        "I graduated with honors from the Voronezh College of Music in piano. I am fond of literary creativity (see <a href=\"https://proza.ru\">https://proza.ru</a>).",
+        "My photo album tells a little more about me."
+      ]
     }
   },
   "education": {
     "rus": {
-      "title": "Education",
+      "title": "Образование",
       "text": [
         {
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "src": "static/assets/photo.png",
-          "links": [
-            [
-              "GitHub",
-              "https://github.com/FelixDes"
-            ],
-            [
-              "link2",
-              "link2"
-            ]
-          ]
+          "header": "Воронежский государственный университет",
+          "text": " Воронеж, 2021 – сейчас, студент",
+          "src": "static/assets/logos/logo_vsu.jpg"
         },
         {
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "src": "static/assets/photo.png",
-          "links": [
-            [
-              "GitHub",
-              "https://github.com/FelixDes"
-            ],
-            [
-              "link2",
-              "link2"
-            ]
-          ]
+          "header": "Гимназия имени академика Н.Г.Басова при Воронежском государственном университете",
+          "text": "Воронеж, 2011-2021, гимназист",
+          "src": "static/assets/logos/logo_bas.jpg"
         }
       ]
     },
@@ -81,20 +73,14 @@
       "title": "Education",
       "text": [
         {
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "src": "static/assets/photo.png",
-          "link": [
-            "link2",
-            "link2"
-          ]
+          "header": "Voronezh State University",
+          "text": " Voronezh, 2021 – now, student",
+          "src": "static/assets/logos/logo_vsu.jpg"
         },
         {
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "src": "static/assets/photo.png",
-          "link": [
-            "link2",
-            "link2"
-          ]
+          "header": "Gymnasium named after Academician N.G. Basov at Voronezh State University",
+          "text": "Voronezh, 2011-2021, gymnasium student",
+          "src": "static/assets/logos/logo_bas.jpg"
         }
       ]
     }
@@ -103,17 +89,15 @@
     "rus": {
       "title": "Addresses",
       "text": [
-        "adr1",
-        "adr2",
-        "adr3"
+        "science2000@ya.ru",
+        "felixdes@ieee.org"
       ]
     },
     "eng": {
       "title": "Addresses",
       "text": [
-        "adr1",
-        "adr2",
-        "adr3"
+        "science2000@ya.ru",
+        "felixdes@ieee.org"
       ]
     }
   },
@@ -126,8 +110,8 @@
           "https://github.com/FelixDes"
         ],
         [
-          "link2",
-          "link2"
+          "Scopus",
+          "https://www.scopus.com/authid/detail.uri?authorId=57207986100"
         ]
       ]
     },
@@ -139,8 +123,8 @@
           "https://github.com/FelixDes"
         ],
         [
-          "link2",
-          "link2"
+          "Scopus",
+          "https://www.scopus.com/authid/detail.uri?authorId=57207986100"
         ]
       ]
     }
@@ -166,6 +150,7 @@
       "title": "Work",
       "text": [
         {
+          "header": "Lorem Ipsum",
           "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
           "src": "static/assets/photo.png",
           "link": [
@@ -174,6 +159,7 @@
           ]
         },
         {
+          "header": "Lorem Ipsum",
           "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
           "src": "static/assets/photo.png",
           "link": [
@@ -187,6 +173,7 @@
       "title": "Work",
       "text": [
         {
+          "header": "Lorem Ipsum",
           "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
           "src": "static/assets/photo.png",
           "link": [
@@ -195,6 +182,7 @@
           ]
         },
         {
+          "header": "Lorem Ipsum",
           "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
           "src": "static/assets/photo.png",
           "link": [
@@ -210,6 +198,7 @@
       "title": "Internships",
       "text": [
         {
+          "header": "Lorem Ipsum",
           "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
           "src": "static/assets/photo.png",
           "link": [
@@ -218,6 +207,7 @@
           ]
         },
         {
+          "header": "Lorem Ipsum",
           "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
           "src": "static/assets/photo.png",
           "link": [
@@ -231,6 +221,7 @@
       "title": "Internships",
       "text": [
         {
+          "header": "Lorem Ipsum",
           "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
           "src": "static/assets/photo.png",
           "link": [
@@ -239,6 +230,7 @@
           ]
         },
         {
+          "header": "Lorem Ipsum",
           "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
           "src": "static/assets/photo.png",
           "link": [
@@ -252,38 +244,303 @@
   "articles": {
     "rus": {
       "title": "Articles",
-      "articles": [
+      "articles_for_years": [
         {
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.",
-          "link": [
-            "link",
-            "link"
+          "year": 2022,
+          "articles": [
+            {
+              "text": "Akimov V.I., Polukazakov A.V., Zuev S.A., Desyatirikov F.A. <strong>Development of Statistical Models of Systems and Automation Tools for Modeling and Forecasting Technological Processes.</strong> 2022 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2022 ElConRus)",
+              "link": [
+                "DOI 10.1109/ElConRus54750.2022.9755833",
+                "https://ieeexplore.ieee.org/document/9755833\n"
+              ]
+            },
+            {
+              "text": "Akimov V.I., Polukazakov A.V., Desyatirikov F.A., Efimova O.E. <strong>Improving the Efficiency of Smart Home Design and Operation.</strong> 2022 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2022 ElConRus)",
+              "link": [
+                "DOI 10.1109/ElConRus54750.2022.9755467",
+                "https://ieeexplore.ieee.org/document/9755467"
+              ]
+            },
+            {
+              "text": "Lavlinskaya O.Y., Kuripta O.V., Desyatirikov F.A., Lemeshkin A.V., Fedosova S.P. <strong>Example of Integrating e-Learning Platforms with Social Network for Create Effective Training Courses.</strong> 2022 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2022 ElConRus)",
+              "link": [
+                "DOI 10.1109/ElConRus54750.2022.9755510",
+                "https://ieeexplore.ieee.org/document/9755510"
+              ]
+            },
+            {
+              "text": "Десятириков Ф.А., Павлова Е.А. <strong>Вейвлет-анализ бизнес-информации</strong> В сборнике Молодёжь и XXI век – 2022 Материалы 12-й Международной молодёжной конференции. В 4-х томах. Курск, 2022. С. 22-25. ",
+              "link": [
+                "https://www.elibrary.ru/item.asp?id=48065357",
+                "https://www.elibrary.ru/item.asp?id=48065357"
+              ]
+            }
           ]
         },
         {
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "link": [
-            "link",
-            "link"
+          "year": 2021,
+          "articles": [
+            {
+              "text": "Kopytina E.A., Kopytin A.V., Desyatirikov F.A. <strong>Smart Service for Medical Care of the Region's Population.</strong> 2021 International Conference \"Quality Management, Transport and Information Security, Information Technologies\" (IT&QM&IS), Saint Petersburg, Russia, 2021.",
+              "link": [
+                "DOI 10.1109/ITQMIS53292.2021.9642885",
+                "https://ieeexplore.ieee.org/document/9642885"
+              ]
+            },
+            {
+              "text": "Starodubtsev I.Yu., Desyatirikov F.A., Khripunov, Yu.V. <strong>Smart Solving the Problem of Optimal Allocation of Project Resources.</strong> 2021 International Conference \"Quality Management, Transport and Information Security, Information Technologies\" (IT&QM&IS), Saint Petersburg, Russia, 2021.",
+              "link": [
+                "DOI 10.1109/ITQMIS53292.2021.9642827",
+                "https://ieeexplore.ieee.org/document/9642827"
+              ]
+            },
+            {
+              "text": "Lavlinskaya O.Y., Kuripta O.V., Desyatirikov F.A. <strong>Assessing Information Security in Telecommunication Systems.</strong> 2021 International Conference \"Quality Management, Transport and Information Security, Information Technologies\" (IT&QM&IS), Saint Petersburg, Russia, 2021.",
+              "link": [
+                "DOI 10.1109/ITQMIS53292.2021.9642789",
+                "https://ieeexplore.ieee.org/document/9642789"
+              ]
+            },
+            {
+              "text": "Десятириков Ф.А. <strong>Системный подход к организации автоматического тестирования студентов музыкальных учебных заведений.</strong> Системный анализ в проектировании и управлении: Сборник научных трудов XXV Междунар. науч.-практич. конф..  Санкт-Петербург.  2021. Ч. 3. с.452-458. ",
+              "link": [
+                "https://www.elibrary.ru/item.asp?id=48176262 ",
+                "https://www.elibrary.ru/item.asp?id=48176262 "
+              ]
+            },
+            {
+              "text": "Desyatirikov F.A., Mager V.E., Chernenkii A.V., Fedosova S.P. <strong>Computer Analysis of Speech Psycho-Information Impact.</strong> 2021 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus), Saint Petersburg and Moscow, Russia, 2021.",
+              "link": [
+                "DOI 10.1109/ElConRus51938.2021.9396206 ",
+                "https://ieeexplore.ieee.org/document/9396206"
+              ]
+            },
+            {
+              "text": "Lavlinskaya O.Y., Chernenkii A.V., Desyatirikov F.A., Kuripta O.V., Seredin, V.I. <strong>Probability Model of Situational Decision-Making under the Influence of Subjective Factors.</strong> 2021 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus), Saint Petersburg and Moscow, Russia, 2021.",
+              "link": [
+                "DOI 10.1109/ElConRus51938.2021.9396589",
+                "https://ieeexplore.ieee.org/document/9396589"
+              ]
+            },
+            {
+              "text": "Desyatirikov F.A., Khripunov, Yu.V., Gribanov E.N. <strong>Android Application for a Sensory Test System for the Determination of Tetracycline Antibiotics.</strong> 2021 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus), Saint Petersburg and Moscow, Russia, 2021.",
+              "link": [
+                "DOI 10.1109/ElConRus51938.2021.9396202",
+                "https://ieeexplore.ieee.org/document/9396202"
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "articles": [
+            {
+              "text": "Starodubtsev I.Yu., Desyatirikov F.A., Nuzhnikh A.V. <strong>Android software for testing in audio and 2D user interaction environment.</strong> 2020 International Conference \"Quality Management, Transport and Information Security, Information Technologies\" (IT&QM&IS), Saint Petersburg, Russia, 2020.",
+              "link": [
+                "DOI 10.1109/ITQMIS51053.2020.9322921",
+                "https://ieeexplore.ieee.org/document/9322921"
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "articles": [
+            {
+              "text": "Desyatirikov F.A., Khripunov Yu.V. <strong>Metalens Concept for Focusing Wi-Fi Radiation.</strong> Proceedings of the 2020 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2020 ElConRus), St. Petersburg and Moscow, Russia, January 27 - 30, 2019. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\".",
+              "link": [
+                "DOI 10.1109/EIConRus49466.2020.9039010",
+                "https://ieeexplore.ieee.org/document/9039010"
+              ]
+            },
+            {
+              "text": "Desyatirikov F.A., Danilova A.V., Gubkin I.M. <strong>Biomedical Applications of Nanotubes in Doping Problems.</strong> Proceedings of the 2019 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2019 ElConRus), St. Petersburg and Moscow, Russia, January 28 - 30, 2019. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\".",
+              "link": [
+                "DOI 10.1109/EIConRus.2019.8656743",
+                "https://ieeexplore.ieee.org/document/8656743"
+              ]
+            },
+            {
+              "text": "Desyatirikov F.A., Minakova O.V., Mager  V.E. <strong>Computer Analysis of Text Tonality Based on the JCM Method.</strong> Proceedings of the 2019 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2019 ElConRus), St. Petersburg and Moscow, Russia, January 28 - 30, 2019. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\".",
+              "link": [
+                "DOI 10.1109/EIConRus.2019.8656847",
+                "https://ieeexplore.ieee.org/document/8656847"
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "articles": [
+            {
+              "text": "Баркалов С.А., Свиридова Т.А., Золотарев В.Н., Федосова С.П., Черненький А.В., Десятириков Ф.А. <strong>Актуализация распределения инвестиций методом динамического программирования.</strong> XXI Международная конференция по мягким вычислениям и измерениям (SCM-2018). Сборник докладов в 2-х томах. Санкт-Петербург. 23–25 мая 2018 г. СПб.: СПбГЭТУ «ЛЭТИ».   т.2.  с.351-354. ",
+              "link": [
+                "https://www.elibrary.ru/item.asp?id=36322559",
+                "https://www.elibrary.ru/item.asp?id=36322559"
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "articles": [
+            {
+              "text": "Десятириков Ф.А., Белоусов А.В., Белоусова А.Г., Десятирикова Е.Н. <strong>Компьютерное обнаружение угроз безопасности речевого контента.</strong> Информатика: Проблемы, Методология, Технология: Мат-лы ХVII МНМК, 09-10.02.2017, Воронеж. - Воронеж: Издательство «Научно-исследовательские публикации»,.2017. – Т.4. - С.233-239. ",
+              "link": [
+                "https://www.elibrary.ru/item.asp?id=28952266",
+                "https://www.elibrary.ru/item.asp?id=28952266"
+              ]
+            },
+            {
+              "text": "Гаршина В.В., Десятириков Ф.А., Мыскова Е.В., Болгов Д.Н. <strong>Оптимизация процедуры расчета диаметров и длин однослойных трубок из гексагонального полотна.</strong> Системный анализ в проектировании и управлении: Сборник научных трудов XXI Междунар. науч.-практич. конф. (29-30.06.2017).  СПб.: Изд-во Политехн. ун-та.   2017.   Ч. 1.  с.348-352. ",
+              "link": [
+                "https://www.elibrary.ru/item.asp?id=29988740",
+                "https://www.elibrary.ru/item.asp?id=29988740"
+              ]
+            },
+            {
+              "text": "Белоусов А.В., Десятириков Ф.А., Никонова С.О., Косой Н.С. <strong>Yandex-технологии для анализа безопасности речевого контента.</strong> Системный анализ в проектировании и управлении: Сборник научных трудов XXI Междунар. науч.-практич. конф. (29-30.06.2017). – СПб.: Изд-во Политехн. ун-та.   2017.   Ч. 2.  с.306-311. ",
+              "link": [
+                "https://www.elibrary.ru/item.asp?id=29988846",
+                "https://www.elibrary.ru/item.asp?id=29988846"
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "articles": [
+            {
+              "text": "Стрельникова М.А..  Десятириков Ф.А.,  Рожкова О.Л. <strong>Методика статистического анализа фонетики естественного языка для обнаружения несанкционированного воздействия.</strong> Информатика: Проблемы, Методология, Технология: Мат-лы ХVI МНМК, 11-12.02.2016, Воронеж. - Воронеж: Издательство «Научно-исследовательские публикации»,.2016.  Ч.5.  С.234-240. ",
+              "link": [
+                "https://www.elibrary.ru/item.asp?id=26612113",
+                "https://www.elibrary.ru/item.asp?id=26612113"
+              ]
+            },
+            {
+              "text": "Десятириков Ф.А., Белоусов А.В., Белоусова А.Г., Десятирикова Е.Н. <strong>Компьютерный анализ речевого психоинформационного воздействия.</strong> Труды VIII Междунар.науч. конф. «Прикладная лингвистика в науке и образовании. ALPAC REPORT — полвека после разгрома». 24–26.11.2016, РГПУ им. А.И.Герцена, СПб.: Изд-во «Книжный Дом», 2016. с.231-237.",
+              "link": [
+                "https://www.elibrary.ru/item.asp?id=28850045",
+                "https://www.elibrary.ru/item.asp?id=28850045"
+              ]
+            }
           ]
         }
       ]
     },
     "eng": {
       "title": "Articles",
-      "articles": [
+      "articles_for_years": [
         {
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "link": [
-            "link",
-            "link"
+          "year": 2022,
+          "articles": [
+            {
+              "text": "Lavlinskaya, O., Kuripta, O., Desyatirikov, F., Lemeshkin, A., Fedosova, S.: <strong>Example of Integrating e-Learning Platforms with Social Network for Create Effective Training Courses.</strong> 2022 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (ElConRus).",
+              "link": [
+                "DOI 10.1109/ElConRus54750.2022.9755510",
+                "https://ieeexplore.ieee.org/document/9755510"
+              ]
+            },
+            {
+              "text": "Akimov, V., Polukazakov, A., Desyatirikov, F., Efimova, O.: <strong>Improving the Efficiency of Smart Home Design and Operation.</strong> 2022 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (ElConRus).",
+              "link": [
+                "DOI 10.1109/ElConRus54750.2022.9755467",
+                "https://ieeexplore.ieee.org/document/9755467"
+              ]
+            },
+            {
+              "text": "Akimov, V., Polukazakov, A., Zuev, S., Desyatirikov, F.: <strong>Development of Statistical Models of Systems and Automation Tools for Modeling and Forecasting Technological Processes.</strong> 2022 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (ElConRus).",
+              "link": [
+                "DOI 10.1109/ElConRus54750.2022.9755833",
+                "https://ieeexplore.ieee.org/document/9755833"
+              ]
+            }
           ]
         },
         {
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "link": [
-            "link",
-            "link"
+          "year": 2021,
+          "articles": [
+            {
+              "text": "Desyatirikov, F., Mager, V., Chernenkii, A., Fedosova, S.: <strong>Computer Analysis of Speech Psycho-Information Impact.</strong> 2021 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus).",
+              "link": [
+                "DOI 10.1109/ElConRus51938.2021.9396206",
+                "https://ieeexplore.ieee.org/document/9396206"
+              ]
+            },
+            {
+              "text": "Lavlinskaya, O., Chernenkii, A., Desyatirikov, F., Kuripta, O., Seredin, V.: <strong>Probability Model of Situational Decision-Making under the Influence of Subjective Factors.</strong> 2021 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus).",
+              "link": [
+                "DOI 10.1109/ElConRus51938.2021.9396589",
+                "https://ieeexplore.ieee.org/document/9396589"
+              ]
+            },
+            {
+              "text": "Desyatirikov, F., Khripunov, Yu., Gribanov, E.: <strong>Android Application for a Sensory Test System for the Determination of Tetracycline Antibiotics.</strong> 2021 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus).",
+              "link": [
+                "DOI 10.1109/ElConRus51938.2021.9396202",
+                "https://ieeexplore.ieee.org/document/9396202"
+              ]
+            },
+            {
+              "text": "Kopytina, E., Kopytin, A., Desyatirikov, F.: <strong>Smart Service for Medical Care of the Region's Population.</strong> 2021 International Conference \"Quality Management, Transport and Information Security, Information Technologies\" (IT&QM&IS).",
+              "link": [
+                "DOI 10.1109/ITQMIS53292.2021.9642885",
+                "https://ieeexplore.ieee.org/document/9642885"
+              ]
+            },
+            {
+              "text": "Starodubtsev, I., Desyatirikov, F., Khripunov, Yu.: <strong>Smart Solving the Problem of Optimal Allocation of Project Resources.</strong> 2021 International Conference \"Quality Management, Transport and Information Security, Information Technologies\" (IT&QM&IS).",
+              "link": [
+                "DOI 10.1109/ITQMIS53292.2021.9642827",
+                "https://ieeexplore.ieee.org/document/9642827"
+              ]
+            },
+            {
+              "text": "Lavlinskaya, O., Kuripta, O., Desyatirikov, F.: <strong>Assessing Information Security in Telecommunication Systems.</strong> 2021 International Conference \"Quality Management, Transport and Information Security, Information Technologies\" (IT&QM&IS).",
+              "link": [
+                "DOI 10.1109/ITQMIS53292.2021.9642789",
+                "https://ieeexplore.ieee.org/document/9642789"
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "articles": [
+            {
+              "text": "Desyatirikov, F., Khripunov, Yu.: <strong>Metalens Concept for Focusing Wi-Fi Radiation.</strong> 2020 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (ElConRus).",
+              "link": [
+                "DOI 10.1109/EIConRus49466.2020.9039010",
+                "https://ieeexplore.ieee.org/document/9039010"
+              ]
+            },
+            {
+              "text": "Starodubtsev, I., Desyatirikov, F., Nuzhnikh, A.: <strong>Android software for testing in audio and 2D user interaction environment.</strong> 2020 International Conference \"Quality Management, Transport and Information Security, Information Technologies\" (IT&QM&IS).",
+              "link": [
+                "DOI 10.1109/ITQMIS51053.2020.9322921",
+                "https://ieeexplore.ieee.org/document/9322921"
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "articles": [
+            {
+              "text": "Desyatirikov, F. Danilova, A. Gubkin, I.: <strong>Biomedical Applications of Nanotubes in Doping Problems.</strong> 2019 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2019 ElConRus)",
+              "link": [
+                "DOI 10.1109/EIConRus.2019.8656743",
+                "https://ieeexplore.ieee.org/document/8656743"
+              ]
+            },
+            {
+              "text": "Desyatirikov F.A., Minakova O.V., Mager  V.E.: <strong>Computer Analysis of Text Tonality Based on the JCM Method.</strong> 2019 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2019 ElConRus).",
+              "link": [
+                "DOI 10.1109/EIConRus.2019.8656847",
+                "https://ieeexplore.ieee.org/document/8656847"
+              ]
+            }
           ]
         }
       ]

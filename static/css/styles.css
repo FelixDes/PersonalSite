@@ -7,10 +7,6 @@ h1 {
     font-weight: bold;
 }
 
-h4 {
-    font-weight: 300;
-}
-
 body {
     /*background-color: #6c6c6c;*/
     padding-left: 15vw;
@@ -88,6 +84,12 @@ a {
 .content_table_row {
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.content_table_column {
+    display: flex;
+    flex-direction: column;
 }
 
 .scroll_area {
@@ -101,6 +103,14 @@ form {
 }
 
 .text_block {
+    text-indent: 20px;
     margin-block-start: 5px;
     margin-block-end: 5px;
+}
+
+.img_block {
+    display: flex;
+    object-fit: contain;
+    flex-shrink: 0;
+    aspect-ratio: 2/1;
 }

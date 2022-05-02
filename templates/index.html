@@ -9,11 +9,8 @@
             <h1 style="font-weight: bold">{{dct["header"]["header2"]}}</h1>
         </div>
         <div class="header_inner">
-            <h4>{{dct["header_inner"]["text"]}}</h4>
-            <form method="post" action="/">
-                <input id="lang_change" type="submit" value={{dct["lang_changer"]["text"]}} name="change"
-                       placeholder="rus">
-            </form>
+            {{dct["header_inner"]["text"]}}
+
         </div>
     </header>
     <div class="main_content">
@@ -21,7 +18,9 @@
             <div class="content_block">
                 <h3>{{dct["biography"]["title"]}}</h3>
                 <div class="inner_content_block">
-                    {{dct["biography"]["text"]}}
+                    {%for art in dct["biography"]["text"]%}
+                    <div class="text_block">{{art|safe}}</div>
+                    {%endfor%}
                 </div>
             </div>
             <div class="content_block">
@@ -29,9 +28,11 @@
                 <div class="inner_content_block">
                     {% for row in dct["education"]["text"] %}
                     <div class="content_table_row">
-                        <img src={{row["src"]}} width="40px" height="40px" alt="photo">
-                        {{row["text"]}}
-                        <a href="{{row["link"][1]}}">{{row["link"][0]}}</a>
+                        <img class="img_block" src={{row["src"]}} width="80px" alt="photo">
+                        <div class="content_table_column">
+                            <h4>{{row["header"]}}</h4>
+                            {{row["text"]}}
+                        </div>
                     </div>
                     {%endfor%}
                 </div>
@@ -82,9 +83,11 @@
                 <div class="inner_content_block">
                     {% for row in dct["work"]["text"] %}
                     <div class="content_table_row">
-                        <img src={{row["src"]}} width="40px" height="40px" alt="photo">
-                        {{row["text"]}}
-                        <a href="{{row["link"][1]}}">{{row["link"][0]}}</a>
+                        <img class="img_block" src={{row["src"]}} width="100px" height="100px" alt="photo">
+                        <div class="content_table_column">
+                            <h2>{{row["header"]}}</h2>
+                            {{row["text"]}}
+                            <a href={{row["link"][1]}}>{{row["link"][0]}}</a></div>
                     </div>
                     {%endfor%}
                 </div>
@@ -94,9 +97,11 @@
                 <div class="inner_content_block">
                     {% for row in dct["internships"]["text"] %}
                     <div class="content_table_row">
-                        <img src={{row["src"]}} width="40px" height="40px" alt="photo">
-                        {{row["text"]}}
-                        <a href="{{row["link"][1]}}">{{row["link"][0]}}</a>
+                        <img class="img_block" src={{row["src"]}} width="100px" height="100px" alt="photo">
+                        <div class="content_table_column">
+                            <h2>{{row["header"]}}</h2>
+                            {{row["text"]}}
+                            <a href={{row["link"][1]}}>{{row["link"][0]}}</a></div>
                     </div>
                     {%endfor%}
                 </div>
@@ -107,11 +112,15 @@
                 <h3>{{dct["articles"]["title"]}}</h3>
                 <div class="inner_content_block">
                     <div class="scroll_area">
-                        {% for article in dct["articles"]["articles"] %}
+                        {% for year in dct["articles"]["articles_for_years"] %}
+                        <h2>{{year["year"]}}</h2>
+                        {% for article in year["articles"] %}
                         <div class="text_block">
-                            {{article["text"]}}
+                            <h2>{{article["header"]}}</h2>
+                            {{article["text"]|safe}}
                             <a href={{article["link"][1]}}>{{article["link"][0]}}</a>
                         </div>
+                        {%endfor%}
                         {%endfor%}
                     </div>
                 </div>
@@ -122,6 +131,7 @@
                     <div class="scroll_area">
                         {% for report in dct["reports"]["reports"] %}
                         <div class="text_block">
+                            <h2>{{report["header"]}}</h2>
                             {{report["text"]}}
                             <a href={{report["link"][1]}}>{{report["link"][0]}}</a>
                         </div>
