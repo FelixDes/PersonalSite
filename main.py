@@ -40,4 +40,5 @@ def get_dict_for_from_json(json_string, lang):
 #                 for
 
 if __name__ == '__main__':
-    app.run(port=10000)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
