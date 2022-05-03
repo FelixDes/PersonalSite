@@ -548,20 +548,97 @@
   },
   "reports": {
     "rus": {
-      "title": "Reports",
+      "title": "Доклады",
       "reports": [
         {
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
+          "text": "Report <strong>Improving the Efficiency of Smart Home Design and Operation.</strong> 2022 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2022 ElConRus), January 25-28, 2022. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
           "link": [
-            "link",
-            "link"
+            "http://www.ieee.spb.ru/images/files/22el_conference_program.pdf",
+            "http://www.ieee.spb.ru/images/files/22el_conference_program.pdf"
           ]
         },
         {
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
+          "text": "Report <strong>Development of Statistical Models of Systems and Automation Tools for Modeling and Forecasting Technological Processes.</strong> 2022 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2022 ElConRus), January 25-28, 2022.  Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
           "link": [
-            "link",
-            "link"
+            "http://www.ieee.spb.ru/images/files/22el_conference_program.pdf",
+            "http://www.ieee.spb.ru/images/files/22el_conference_program.pdf"
+          ]
+        },
+        {
+          "text": "Report <strong>Smart Solving the Problem of Optimal Allocation of Project Resources.</strong> 2021 International Conference \"Quality Management, Transport and Information Security, Information Technologies\" (IT&QM&IS), Saint Petersburg, Russia, September 06-10, 2021. Saint Petersburg Electrotechnical University “LETI” ",
+          "link": [
+            "http://www.ieee.spb.ru/images/files/conference_program_21.pdf",
+            "http://www.ieee.spb.ru/images/files/conference_program_21.pdf"
+          ]
+        },
+        {
+          "text": "Report <strong>Computer Analysis of Speech Psycho-Information Impact.</strong> 2021 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus), Saint Petersburg and Moscow, Russia, January 26-29, 2021. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+          "link": [
+            "http://www.ieee.spb.ru/images/files/final_program.pdf",
+            "http://www.ieee.spb.ru/images/files/final_program.pdf"
+          ]
+        },
+        {
+          "text": "Report <strong>Android Application for a Sensory Test System for the Determination of Tetracycline Antibiotics.</strong> 2021 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus), Saint Petersburg and Moscow, Russia, January 26-29, 2021.  Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+          "link": [
+            "http://www.ieee.spb.ru/images/files/final_program.pdf",
+            "http://www.ieee.spb.ru/images/files/final_program.pdf"
+          ]
+        },
+        {
+          "text": "Report <strong>Android software for testing in audio and 2D user interaction environment.</strong> 2020 International Conference \"Quality Management, Transport and Information Security, Information Technologies\" (IT&QM&IS), Saint Petersburg, Russia, September 06-11, 2020. Saint Petersburg Electrotechnical University “LETI”. ",
+          "link": [
+            "http://www.ieee.spb.ru/images/files/program-20.pdf",
+            "http://www.ieee.spb.ru/images/files/program-20.pdf"
+          ]
+        },
+        {
+          "text": "Report <strong>Metalens Concept for Focusing Wi-Fi Radiation.</strong> Proceedings of the 2020 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2020 ElConRus), St. Petersburg and Moscow, Russia, January 27 - 30,</strong> 2020. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+          "link": [
+            "Report <strong>Metalens Concept for Focusing Wi-Fi Radiation.</strong> Proceedings of the 2020 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2020 ElConRus), St. Petersburg and Moscow, Russia, January 27 - 30,</strong> 2020. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+            "https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fwww.ieee.spb.ru%2Fimages%2Ffiles%2Fconference_prog20.doc&wdOrigin=BROWSELINK"
+          ]
+        },
+        {
+          "text": "Report <strong>Biomedical Applications of Nanotubes in Doping Problems.</strong> Proceedings of the 2019 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2019 ElConRus), St. Petersburg and Moscow, Russia, January 28 – 30, 2019. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+          "link": [
+            "http://www.ieee.spb.ru/index.php?option=com_content&view=article&id=24&Itemid=114",
+            "http://www.ieee.spb.ru/index.php?option=com_content&view=article&id=24&Itemid=114"
+          ]
+        },
+        {
+          "text": "Report <strong>Сomputer Analysis of Text Tonality Based on the JCM Method.</strong> Proceedings of the 2019 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2019 ElConRus), St. Petersburg and Moscow, Russia, January 28 - 30, 2019. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+          "link": [
+            "http://www.ieee.spb.ru/index.php?option=com_content&view=article&id=24&Itemid=114",
+            "http://www.ieee.spb.ru/index.php?option=com_content&view=article&id=24&Itemid=114"
+          ]
+        },
+        {
+          "text": "Reportin Russian <strong>Application of nanotubes for point doping (Detonation in a nanotube - \"Topol-M\" for the microspace)</strong>.XXVIII \"Sakharov’s Readings\" — The High School Conference in Saint Petersburg, Russia, May 19-20,.2018",
+          "link": [
+            "http://www.school.ioffe.ru/readings/2018/",
+            "http://www.school.ioffe.ru/readings/2018/"
+          ]
+        },
+        {
+          "text": "Report in Russian <strong>Determination of diameters and lengths of single-layer defect-free nanotubes by an accelerated procedure.</strong> XXVII \"Sakharov’s Readings\" — The High School Conference in Saint Petersburg, Russia, May 20-21,2017",
+          "link": [
+            "http://www.school.ioffe.ru/readings/2017/",
+            "http://www.school.ioffe.ru/readings/2017/"
+          ]
+        },
+        {
+          "text": "Report in Russian <strong>Speech unauthorized influence: the possibility of its existence and detection.</strong> XXVI \"Sakharov’s Readings\" — The High School Conference in Saint Petersburg, Russia, May 14-15, 2016",
+          "link": [
+            "http://www.school.ioffe.ru/readings/2016/",
+            "http://www.school.ioffe.ru/readings/2016/"
+          ]
+        },
+        {
+          "text": "Report in Russian <strong>Possibilities of identifying Plato's solids based on a comparative analysis of their surface and volume.</strong> XXV \"Sakharov’s Readings\" — The High School Conference in Saint Petersburg, Russia, May 15-18, .2015",
+          "link": [
+            "http://www.school.ioffe.ru/readings/2015/",
+            "http://www.school.ioffe.ru/readings/2015/"
           ]
         }
       ]
@@ -570,17 +647,94 @@
       "title": "Reports",
       "reports": [
         {
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
+          "text": "Report <strong>Improving the Efficiency of Smart Home Design and Operation.</strong> 2022 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2022 ElConRus), January 25-28, 2022. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
           "link": [
-            "link",
-            "link"
+            "http://www.ieee.spb.ru/images/files/22el_conference_program.pdf",
+            "http://www.ieee.spb.ru/images/files/22el_conference_program.pdf"
           ]
         },
         {
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
+          "text": "Report <strong>Development of Statistical Models of Systems and Automation Tools for Modeling and Forecasting Technological Processes.</strong> 2022 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2022 ElConRus), January 25-28, 2022.  Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
           "link": [
-            "link",
-            "link"
+            "http://www.ieee.spb.ru/images/files/22el_conference_program.pdf",
+            "http://www.ieee.spb.ru/images/files/22el_conference_program.pdf"
+          ]
+        },
+        {
+          "text": "Report <strong>Smart Solving the Problem of Optimal Allocation of Project Resources.</strong> 2021 International Conference \"Quality Management, Transport and Information Security, Information Technologies\" (IT&QM&IS), Saint Petersburg, Russia, September 06-10, 2021. Saint Petersburg Electrotechnical University “LETI” ",
+          "link": [
+            "http://www.ieee.spb.ru/images/files/conference_program_21.pdf",
+            "http://www.ieee.spb.ru/images/files/conference_program_21.pdf"
+          ]
+        },
+        {
+          "text": "Report <strong>Computer Analysis of Speech Psycho-Information Impact.</strong> 2021 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus), Saint Petersburg and Moscow, Russia, January 26-29, 2021. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+          "link": [
+            "http://www.ieee.spb.ru/images/files/final_program.pdf",
+            "http://www.ieee.spb.ru/images/files/final_program.pdf"
+          ]
+        },
+        {
+          "text": "Report <strong>Android Application for a Sensory Test System for the Determination of Tetracycline Antibiotics.</strong> 2021 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus), Saint Petersburg and Moscow, Russia, January 26-29, 2021.  Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+          "link": [
+            "http://www.ieee.spb.ru/images/files/final_program.pdf",
+            "http://www.ieee.spb.ru/images/files/final_program.pdf"
+          ]
+        },
+        {
+          "text": "Report <strong>Android software for testing in audio and 2D user interaction environment.</strong> 2020 International Conference \"Quality Management, Transport and Information Security, Information Technologies\" (IT&QM&IS), Saint Petersburg, Russia, September 06-11, 2020. Saint Petersburg Electrotechnical University “LETI”. ",
+          "link": [
+            "http://www.ieee.spb.ru/images/files/program-20.pdf",
+            "http://www.ieee.spb.ru/images/files/program-20.pdf"
+          ]
+        },
+        {
+          "text": "Report <strong>Metalens Concept for Focusing Wi-Fi Radiation.</strong> Proceedings of the 2020 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2020 ElConRus), St. Petersburg and Moscow, Russia, January 27 - 30,</strong> 2020. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+          "link": [
+            "Report <strong>Metalens Concept for Focusing Wi-Fi Radiation.</strong> Proceedings of the 2020 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2020 ElConRus), St. Petersburg and Moscow, Russia, January 27 - 30,</strong> 2020. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+            "https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fwww.ieee.spb.ru%2Fimages%2Ffiles%2Fconference_prog20.doc&wdOrigin=BROWSELINK"
+          ]
+        },
+        {
+          "text": "Report <strong>Biomedical Applications of Nanotubes in Doping Problems.</strong> Proceedings of the 2019 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2019 ElConRus), St. Petersburg and Moscow, Russia, January 28 – 30, 2019. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+          "link": [
+            "http://www.ieee.spb.ru/index.php?option=com_content&view=article&id=24&Itemid=114",
+            "http://www.ieee.spb.ru/index.php?option=com_content&view=article&id=24&Itemid=114"
+          ]
+        },
+        {
+          "text": "Report <strong>Сomputer Analysis of Text Tonality Based on the JCM Method.</strong> Proceedings of the 2019 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2019 ElConRus), St. Petersburg and Moscow, Russia, January 28 - 30, 2019. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+          "link": [
+            "http://www.ieee.spb.ru/index.php?option=com_content&view=article&id=24&Itemid=114",
+            "http://www.ieee.spb.ru/index.php?option=com_content&view=article&id=24&Itemid=114"
+          ]
+        },
+        {
+          "text": "Reportin Russian <strong>Application of nanotubes for point doping (Detonation in a nanotube - \"Topol-M\" for the microspace)</strong>.XXVIII \"Sakharov’s Readings\" — The High School Conference in Saint Petersburg, Russia, May 19-20,.2018",
+          "link": [
+            "http://www.school.ioffe.ru/readings/2018/",
+            "http://www.school.ioffe.ru/readings/2018/"
+          ]
+        },
+        {
+          "text": "Report in Russian <strong>Determination of diameters and lengths of single-layer defect-free nanotubes by an accelerated procedure.</strong> XXVII \"Sakharov’s Readings\" — The High School Conference in Saint Petersburg, Russia, May 20-21,2017",
+          "link": [
+            "http://www.school.ioffe.ru/readings/2017/",
+            "http://www.school.ioffe.ru/readings/2017/"
+          ]
+        },
+        {
+          "text": "Report in Russian <strong>Speech unauthorized influence: the possibility of its existence and detection.</strong> XXVI \"Sakharov’s Readings\" — The High School Conference in Saint Petersburg, Russia, May 14-15, 2016",
+          "link": [
+            "http://www.school.ioffe.ru/readings/2016/",
+            "http://www.school.ioffe.ru/readings/2016/"
+          ]
+        },
+        {
+          "text": "Report in Russian <strong>Possibilities of identifying Plato's solids based on a comparative analysis of their surface and volume.</strong> XXV \"Sakharov’s Readings\" — The High School Conference in Saint Petersburg, Russia, May 15-18, .2015",
+          "link": [
+            "http://www.school.ioffe.ru/readings/2015/",
+            "http://www.school.ioffe.ru/readings/2015/"
           ]
         }
       ]

@@ -132,20 +132,20 @@
                     </div>
                 </div>
             </div>
-<!--            <div class="content_block">-->
-<!--                <h2>{{dct["reports"]["title"]}}</h2>-->
-<!--                <div class="inner_content_block">-->
-<!--                    <div class="scroll_area">-->
-<!--                        {% for report in dct["reports"]["reports"] %}-->
-<!--                        <div class="text_block">-->
-<!--                            <h2>{{report["header"]}}</h2>-->
-<!--                            {{report["text"]}}-->
-<!--                            <a href={{report["link"][1]}}>{{report["link"][0]}}</a>-->
-<!--                        </div>-->
-<!--                        {%endfor%}-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
+            <div class="content_block">
+                <h2>{{dct["reports"]["title"]}}</h2>
+                <div class="inner_content_block">
+                    <div class="scroll_area">
+                        {% for report in dct["reports"]["reports"] %}
+                        <div class="text_block">
+                            <h2>{{report["header"]}}</h2>
+                            {{report["text"]|safe}}
+                            <a href={{report["link"][1]}}>{{report["link"][0]}}</a>
+                        </div>
+                        {%endfor%}
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
