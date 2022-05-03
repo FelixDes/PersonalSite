@@ -19,10 +19,10 @@
   },
   "header_inner": {
     "rus": {
-      "text": "Десятириков Феликс"
+      "text": "Desyatirikov Felix"
     },
     "eng": {
-      "text": "Desyatirikov Felix"
+      "text": "Десятириков Феликс"
     }
   },
   "lang_changer": {
@@ -37,19 +37,17 @@
     "rus": {
       "title": "Биография",
       "text": [
-        "Я родился и вырос в старинном городе Воронеже, расположенном в самом центре России у берегов полноводных рек Дон и Воронеж.",
+        "Я родился и вырос в старинном городе Воронеже, расположенном в самом центре России, у берегов полноводных рек Дон и Воронеж.",
         "В настоящее время я являюсь студентом Воронежского государственного университета, где очно обучаюсь на двух факультетах – факультете Прикладной математики, информатики и механики и на факультете Компьютерных наук.",
-        "Я с отличием закончил Воронежский музыкальный колледж по классу фортепиано. Увлекаюсь литературным творчеством (см. <a href=\"https://proza.ru\">https://proza.ru</a>).",
-        "В моём фотоальбоме обо мне рассказано немного больше."
+        "Я с отличием закончил Воронежский музыкальный колледж по классу фортепиано. Увлекаюсь литературным творчеством (см. <a href=\"https://proza.ru\">https://proza.ru</a>)."
       ]
     },
     "eng": {
-      "title": "Биография",
+      "title": "Bio",
       "text": [
-        "I was born and raised in the ancient city of Voronezh, located in the very center of Russia on the banks of the navigable rivers Don and Voronezh.",
-        "Currently, I am a student at Voronezh State University, where I study full-time at two faculties - the Faculty of Applied Mathematics, Informatics and Mechanics and the Faculty of Computer Science.",
-        "I graduated with honors from the Voronezh College of Music in piano. I am fond of literary creativity (see <a href=\"https://proza.ru\">https://proza.ru</a>).",
-        "My photo album tells a little more about me."
+        "I was born and raised in the ancient city of Voronezh located in the very center of Russia on the banks of the navigable rivers Don and Voronezh.",
+        "Currently, I am a student at Voronezh State Universitys where I study full-time at two faculties - the Faculty of Applied Mathematics, Informatics and Mechanics and the Faculty of Computer Science.",
+        "I graduated with honors from the Voronezh College of Music in piano. I am fond of literary creativity (see <a href=\"https://proza.ru\">https://proza.ru</a>)."
       ]
     }
   },
@@ -59,7 +57,7 @@
       "text": [
         {
           "header": "Воронежский государственный университет",
-          "text": " Воронеж, 2021 – сейчас, студент",
+          "text": "Воронеж, 2021 – сейчас, студент",
           "src": "static/assets/logos/logo_vsu.jpg"
         },
         {
@@ -74,7 +72,7 @@
       "text": [
         {
           "header": "Voronezh State University",
-          "text": " Voronezh, 2021 – now, student",
+          "text": "Voronezh, 2021 – now, student",
           "src": "static/assets/logos/logo_vsu.jpg"
         },
         {
@@ -98,6 +96,20 @@
       "text": [
         "science2000@ya.ru",
         "felixdes@ieee.org"
+      ]
+    }
+  },
+  "languages": {
+    "rus": {
+      "title": "Владение языками",
+      "text": [
+        "Английский"
+      ]
+    },
+    "eng": {
+      "title": "Language Proficiency",
+      "text": [
+        "English"
       ]
     }
   },
@@ -133,108 +145,94 @@
     "rus": {
       "title": "Руководители",
       "text": [
-        "<u>д.ф.-м.н., проф. А.И.Шашкин</u><br>(2021 - сейчас)"
+        "<u>д.ф.-м.н., проф. А.И.Шашкин</u>2021 - сейчас"
       ]
     },
     "eng": {
       "title": "Supervisors",
       "text": [
-        "<u>Professor A.I.Shashkin</u><br>(2021 - now)"
+        "<u>Professor A.I.Shashkin</u>2021 - now"
       ]
     }
   },
-  "work": {
+  "certificates": {
     "rus": {
-      "title": "Work",
-      "text": [
+      "title": "Сертификаты",
+      "certificates": [
         {
-          "header": "Lorem Ipsum",
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "src": "static/assets/photo.png",
-          "link": [
-            "link2",
-            "link2"
-          ]
+          "header": "Yandex-Лицей",
+          "time": "2019-2021",
+          "text": "Сертификаты: <a href=\"https://lyceum.yandex.ru/certificate/check/?certNumber=210230282&lastName=%D0%94%D0%B5%D1%81%D1%8F%D1%82%D0%B8%D1%80%D0%B8%D0%BA%D0%BE%D0%B2\">2102 30282</a><a href=\"https://lyceum.yandex.ru/certificate/check/?certNumber=200130282&lastName=%D0%94%D0%B5%D1%81%D1%8F%D1%82%D0%B8%D1%80%D0%B8%D0%BA%D0%BE%D0%B2\">2001 30282</a>"
         },
         {
-          "header": "Lorem Ipsum",
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "src": "static/assets/photo.png",
-          "link": [
-            "link2",
-            "link2"
-          ]
+          "header": "IT Школа Samsung",
+          "time": "2019-2020",
+          "text": "Сертификат: <a href=\"https://myitschool.ru/edu/local/samsung/cert/verify.php?track=6\">VGUP-0005-0520</a>"
+        },
+        {
+          "header": "Samsung Innovation Campus",
+          "time": "15-31.07.2020",
+          "text": "Программа “Samsung Android Bootcamp”"
         }
       ]
     },
     "eng": {
-      "title": "Work",
-      "text": [
+      "title": "Certificates",
+      "certificates": [
         {
-          "header": "Lorem Ipsum",
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "src": "static/assets/photo.png",
-          "link": [
-            "link2",
-            "link2"
-          ]
+          "header": "Yandex Lyceum",
+          "time": "2019-2021",
+          "text": "Certificates: <a href=\"https://lyceum.yandex.ru/certificate/check/?certNumber=210230282&lastName=%D0%94%D0%B5%D1%81%D1%8F%D1%82%D0%B8%D1%80%D0%B8%D0%BA%D0%BE%D0%B2\">2102 30282</a><a href=\"https://lyceum.yandex.ru/certificate/check/?certNumber=200130282&lastName=%D0%94%D0%B5%D1%81%D1%8F%D1%82%D0%B8%D1%80%D0%B8%D0%BA%D0%BE%D0%B2\">2001 30282</a>"
         },
         {
-          "header": "Lorem Ipsum",
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "src": "static/assets/photo.png",
-          "link": [
-            "link2",
-            "link2"
-          ]
+          "header": "IT School Samsung",
+          "time": "2019-2020",
+          "text": "Certificate: VGUP-0005-0520"
+        },
+        {
+          "header": "Samsung Innovation Campus",
+          "time": "July, 15-31, 2020",
+          "text": "Program “Samsung Android Bootcamp”"
         }
       ]
     }
   },
-  "internships": {
+  "grants": {
     "rus": {
-      "title": "Internships",
-      "text": [
+      "title": "Гранты",
+      "grants": [
         {
-          "header": "Lorem Ipsum",
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "src": "static/assets/photo.png",
-          "link": [
-            "link2",
-            "link2"
-          ]
-        },
-        {
-          "header": "Lorem Ipsum",
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "src": "static/assets/photo.png",
-          "link": [
-            "link2",
-            "link2"
-          ]
+          "header": "Грант Президента РФ для талантливой молодёжи",
+          "time": "2020"
         }
       ]
     },
     "eng": {
-      "title": "Internships",
-      "text": [
+      "title": "Grants",
+      "grants": [
         {
-          "header": "Lorem Ipsum",
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "src": "static/assets/photo.png",
-          "link": [
-            "link2",
-            "link2"
-          ]
-        },
+          "header": "Grant of the President of the Russian Federation for talented youth",
+          "time": "2020"
+        }
+      ]
+    }
+  },
+  "membership": {
+    "rus": {
+      "title": "Членство",
+      "memberships": [
         {
-          "header": "Lorem Ipsum",
-          "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века.",
-          "src": "static/assets/photo.png",
-          "link": [
-            "link2",
-            "link2"
-          ]
+          "header": "IEEE",
+          "time": "2018 - сейчас"
+        }
+      ]
+    },
+    "eng": {
+      "title": "Membership",
+      "memberships": [
+        {
+          "header": "IEEE",
+          "time": "2018 - now"
         }
       ]
     }
@@ -595,7 +593,7 @@
         {
           "text": "Report <strong>Metalens Concept for Focusing Wi-Fi Radiation.</strong> Proceedings of the 2020 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2020 ElConRus), St. Petersburg and Moscow, Russia, January 27 - 30,</strong> 2020. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
           "link": [
-            "Report <strong>Metalens Concept for Focusing Wi-Fi Radiation.</strong> Proceedings of the 2020 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2020 ElConRus), St. Petersburg and Moscow, Russia, January 27 - 30,</strong> 2020. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+            "https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fwww.ieee.spb.ru%2Fimages%2Ffiles%2Fconference_prog20.doc&wdOrigin=BROWSELINK",
             "https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fwww.ieee.spb.ru%2Fimages%2Ffiles%2Fconference_prog20.doc&wdOrigin=BROWSELINK"
           ]
         },
@@ -691,7 +689,7 @@
         {
           "text": "Report <strong>Metalens Concept for Focusing Wi-Fi Radiation.</strong> Proceedings of the 2020 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2020 ElConRus), St. Petersburg and Moscow, Russia, January 27 - 30,</strong> 2020. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
           "link": [
-            "Report <strong>Metalens Concept for Focusing Wi-Fi Radiation.</strong> Proceedings of the 2020 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (2020 ElConRus), St. Petersburg and Moscow, Russia, January 27 - 30,</strong> 2020. Saint Petersburg Electrotechnical University “LETI” and the National Research University of Electronic Technology \"MIET\". ",
+            "https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fwww.ieee.spb.ru%2Fimages%2Ffiles%2Fconference_prog20.doc&wdOrigin=BROWSELINK",
             "https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fwww.ieee.spb.ru%2Fimages%2Ffiles%2Fconference_prog20.doc&wdOrigin=BROWSELINK"
           ]
         },
@@ -710,7 +708,7 @@
           ]
         },
         {
-          "text": "Reportin Russian <strong>Application of nanotubes for point doping (Detonation in a nanotube - \"Topol-M\" for the microspace)</strong>.XXVIII \"Sakharov’s Readings\" — The High School Conference in Saint Petersburg, Russia, May 19-20,.2018",
+          "text": "Report in Russian <strong>Application of nanotubes for point doping (Detonation in a nanotube - \"Topol-M\" for the microspace)</strong>.XXVIII \"Sakharov’s Readings\" — The High School Conference in Saint Petersburg, Russia, May 19-20,.2018",
           "link": [
             "http://www.school.ioffe.ru/readings/2018/",
             "http://www.school.ioffe.ru/readings/2018/"

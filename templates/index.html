@@ -4,9 +4,9 @@
 <div class="content">
     <header>
         <div class="header_inner">
-            <h1>{{dct["header"]["header1"]}}</h1>
+            <h1 style="white-space: nowrap;">{{dct["header"]["header1"]}}</h1>
             <div class="splitter"></div>
-            <h1 style="font-weight: bold">{{dct["header"]["header2"]}}</h1>
+            <h1 style="white-space: nowrap;">{{dct["header"]["header2"]}}</h1>
         </div>
         <div class="header_inner">
             {{dct["header_inner"]["text"]}}
@@ -70,6 +70,15 @@
                             {%endfor%}
                         </div>
                     </div>
+                    <div class="content_block">
+                        <h2>{{dct["languages"]["title"]}}</h2>
+                        <div class="inner_content_block">
+                            {% for elem in dct["languages"]["text"] %}
+                            {{elem|safe}}
+                            <br>
+                            {%endfor%}
+                        </div>
+                    </div>
                 </div>
                 <div class="content_panel">
                     <div id="photo">
@@ -81,41 +90,49 @@
     </div>
     <div class="main_content">
         <div class="content_panel">
-<!--            <div class="content_block">-->
-<!--                <h2>{{dct["work"]["title"]}}</h2>-->
-<!--                <div class="inner_content_block">-->
-<!--                    {% for row in dct["work"]["text"] %}-->
-<!--                    <div class="content_table_row">-->
-<!--                        <img class="img_block" src={{row["src"]}} width="100px" height="100px" alt="photo">-->
-<!--                        <div class="content_table_column">-->
-<!--                            <h2>{{row["header"]}}</h2>-->
-<!--                            {{row["text"]}}-->
-<!--                            <a href={{row["link"][1]}}>{{row["link"][0]}}</a></div>-->
-<!--                    </div>-->
-<!--                    {%endfor%}-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="content_block">-->
-<!--                <h2>{{dct["internships"]["title"]}}</h2>-->
-<!--                <div class="inner_content_block">-->
-<!--                    {% for row in dct["internships"]["text"] %}-->
-<!--                    <div class="content_table_row">-->
-<!--                        <img class="img_block" src={{row["src"]}} width="100px" height="100px" alt="photo">-->
-<!--                        <div class="content_table_column">-->
-<!--                            <h2>{{row["header"]}}</h2>-->
-<!--                            {{row["text"]}}-->
-<!--                            <a href={{row["link"][1]}}>{{row["link"][0]}}</a></div>-->
-<!--                    </div>-->
-<!--                    {%endfor%}-->
-<!--                </div>-->
-<!--            </div>-->
+            <div class="content_block">
+                <h2>{{dct["certificates"]["title"]}}</h2>
+                <div class="inner_content_block">
+                    {% for row in dct["certificates"]["certificates"] %}
+                    <div class="content_table_column">
+                        <h4>{{row["header"]}}</h4>
+                        {{row["time"]}}<br>
+                        {{row["text"]|safe}}
+                    </div>
+                    {%endfor%}
+                </div>
+            </div>
+        </div>
+        <div class="content_panel">
+            <div class="content_block">
+                <h2>{{dct["grants"]["title"]}}</h2>
+                <div class="inner_content_block">
+                    {% for row in dct["grants"]["grants"] %}
+                    <div class="content_table_column">
+                        <h4>{{row["header"]}}</h4>
+                        {{row["time"]}}
+                    </div>
+                    {%endfor%}
+                </div>
+            </div>
+            <div class="content_block">
+                <h2>{{dct["membership"]["title"]}}</h2>
+                <div class="inner_content_block">
+                    {% for row in dct["membership"]["memberships"] %}
+                    <div class="content_table_column">
+                        <h4>{{row["header"]}}</h4>
+                        {{row["time"]}}
+                    </div>
+                    {%endfor%}
+                </div>
+            </div>
         </div>
         <div class="content_panel">
             <div class="content_block">
                 <div class="content_table_row">
                     <h2>{{dct["articles"]["title"]}}</h2>
-                    <div class="splitter"></div>
-                    {{dct["articles"]["sub_title"]}}
+                    <div style="padding-left: 20px">
+                        {{dct["articles"]["sub_title"]}}</div>
                 </div>
                 <div class="inner_content_block">
                     <div class="scroll_area">

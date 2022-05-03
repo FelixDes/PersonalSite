@@ -49,6 +49,11 @@ header {
     margin-right: 20px;
     margin-left: 20px;
     font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid #366301;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .content_block {
@@ -70,6 +75,10 @@ header {
     word-wrap: break-word;
 }
 
+.inline_text {
+    white-space: nowrap;
+}
+
 a {
     outline: none;
     text-decoration: none;
@@ -79,6 +88,10 @@ a {
 #photo {
     border: 1px solid #111;
     padding: 5px;
+}
+
+#photo img {
+    display: block;
 }
 
 .content_table_row {
