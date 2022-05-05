@@ -32,13 +32,6 @@ def get_dict_for_from_json(json_string, lang):
     jsn = dict(json.loads(json_string))
     return {key: jsn[key][lang] for key in jsn.keys()}
 
-
-# def link_preprocessor(dct):
-#     for node in dct:
-#         if node["link_preprocessor"] is not None:
-#             if type(node["text"]) == list:
-#                 for
-
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)

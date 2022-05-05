@@ -90,40 +90,53 @@
     </div>
     <div class="main_content">
         <div class="content_panel">
-            <div class="content_block">
-                <h2>{{dct["certificates"]["title"]}}</h2>
-                <div class="inner_content_block">
-                    {% for row in dct["certificates"]["certificates"] %}
-                    <div class="content_table_column">
-                        <h4>{{row["header"]}}</h4>
-                        {{row["time"]}}<br>
-                        {{row["text"]|safe}}
+            <div class="content_table_row">
+                <div class="content_block">
+                    <h2>{{dct["certificates"]["title"]}}</h2>
+                    <div class="inner_content_block">
+                        {% for row in dct["certificates"]["certificates"] %}
+                        <div class="content_table_column">
+                            <h4>{{row["header"]}}</h4>
+                            {{row["time"]}}<br>
+                            {{row["text"]|safe}}
+                        </div>
+                        {%endfor%}
                     </div>
-                    {%endfor%}
+                </div>
+
+                <div class="content_panel">
+                    <div class="content_block">
+                        <h2>{{dct["grants"]["title"]}}</h2>
+                        <div class="inner_content_block">
+                            {% for row in dct["grants"]["grants"] %}
+                            <div class="content_table_column">
+                                <h4>{{row["header"]}}</h4>
+                                {{row["time"]}}
+                            </div>
+                            {%endfor%}
+                        </div>
+                    </div>
+                    <div class="content_block">
+                        <h2>{{dct["membership"]["title"]}}</h2>
+                        <div class="inner_content_block">
+                            {% for row in dct["membership"]["memberships"] %}
+                            <div class="content_table_column">
+                                <h4>{{row["header"]}}</h4>
+                                {{row["time"]}}
+                            </div>
+                            {%endfor%}
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="content_panel">
             <div class="content_block">
-                <h2>{{dct["grants"]["title"]}}</h2>
+                <h2>{{dct["video"]["title"]}}</h2>
                 <div class="inner_content_block">
-                    {% for row in dct["grants"]["grants"] %}
-                    <div class="content_table_column">
-                        <h4>{{row["header"]}}</h4>
-                        {{row["time"]}}
-                    </div>
-                    {%endfor%}
-                </div>
-            </div>
-            <div class="content_block">
-                <h2>{{dct["membership"]["title"]}}</h2>
-                <div class="inner_content_block">
-                    {% for row in dct["membership"]["memberships"] %}
-                    <div class="content_table_column">
-                        <h4>{{row["header"]}}</h4>
-                        {{row["time"]}}
-                    </div>
-                    {%endfor%}
+                    <iframe height="315px" src="{{dct["video"]["src"]}}"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </div>
@@ -132,7 +145,8 @@
                 <div class="content_table_row">
                     <h2>{{dct["articles"]["title"]}}</h2>
                     <div style="padding-left: 20px">
-                        {{dct["articles"]["sub_title"]}}</div>
+                        {{dct["articles"]["sub_title"]}}
+                    </div>
                 </div>
                 <div class="inner_content_block">
                     <div class="scroll_area">
@@ -168,9 +182,5 @@
 </div>
 <footer>
 </footer>
-<!--<script>function changeName() {-->
-<!--    document.getElementById('lang_change').value = document.getElementById('lang_change').value === "eng" ? "rus" : "eng";-->
-<!--}-->
-</script>
 </div>
 {% endblock %}
