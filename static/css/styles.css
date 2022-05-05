@@ -83,6 +83,7 @@ a {
     outline: none;
     text-decoration: none;
     color: #366301;
+    white-space: nowrap;
 }
 
 #photo {
@@ -97,7 +98,6 @@ a {
 .content_table_row {
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 .content_table_column {

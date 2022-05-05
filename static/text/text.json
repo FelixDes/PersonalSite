@@ -45,8 +45,8 @@
     "eng": {
       "title": "Bio",
       "text": [
-        "i was born and living in Voronezh, one of the most ancient town of Russia, located on the banks of navigated rivers Don and Voronezh",
-        "Currently, I am a student at Voronezh State Universitys where I study full-time at two faculties - the Faculty of Applied Mathematics, Informatics and Mechanics and the Faculty of Computer Science.",
+        "I was born in Voronezh, one of the most ancient town of Russia, located on the banks of two navigated rivers Don and Voronezh",
+        "Currently, I am a student at Voronezh State University where I study full-time at two Faculties - Faculty of Applied Mathematics, Informatics and Mechanics and Faculty of Computer Science.",
         "I graduated with honors from the Voronezh College of Music in piano. I am fond of literary creativity (see <a href=\"https://proza.ru\">https://proza.ru</a>)."
       ]
     }
@@ -57,7 +57,7 @@
       "text": [
         {
           "header": "Воронежский государственный университет",
-          "text": "Воронеж, 2021 – сейчас, студент",
+          "text": "Воронеж, 2021-сейчас, студент",
           "src": "static/assets/logos/logo_vsu.jpg"
         },
         {
@@ -72,7 +72,7 @@
       "text": [
         {
           "header": "Voronezh State University",
-          "text": "Voronezh, 2021 – now, student",
+          "text": "Voronezh, 2021-now, student",
           "src": "static/assets/logos/logo_vsu.jpg"
         },
         {
@@ -145,13 +145,13 @@
     "rus": {
       "title": "Руководители",
       "text": [
-        "<u>д.ф.-м.н., проф. А.И.Шашкин</u>2021 - сейчас"
+        "<u>д.ф.-м.н., проф. А.И.Шашкин</u>2021-сейчас"
       ]
     },
     "eng": {
       "title": "Supervisors",
       "text": [
-        "<u>Professor A.I.Shashkin</u>2021 - now"
+        "<u>Professor A.I.Shashkin</u>2021-now"
       ]
     }
   },
@@ -187,7 +187,7 @@
         {
           "header": "IT School Samsung",
           "time": "2019-2020",
-          "text": "Certificate: VGUP-0005-0520"
+          "text": "Certificate: <a href=\"https://myitschool.ru/edu/local/samsung/cert/verify.php?track=6\">VGUP-0005-0520</a>"
         },
         {
           "header": "Samsung Innovation Campus",
@@ -233,7 +233,7 @@
       "memberships": [
         {
           "header": "IEEE",
-          "time": "2018 - сейчас"
+          "time": "2018-сейчас"
         }
       ]
     },
@@ -242,7 +242,7 @@
       "memberships": [
         {
           "header": "IEEE",
-          "time": "2018 - now"
+          "time": "2018-now"
         }
       ]
     }
