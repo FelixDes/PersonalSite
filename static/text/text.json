@@ -219,12 +219,12 @@
   },
   "video": {
     "rus": {
-      "title": "Для привлечения внимания (В разработке)",
-      "src": ""
+      "title": "Для привлечения внимания",
+      "src": "https://www.youtube.com/embed/PnpHWSCNTe0"
     },
     "eng": {
-      "title": "To attract attention (In development)",
-      "src": ""
+      "title": "To attract attention",
+      "src": "https://www.youtube.com/embed/PnpHWSCNTe0"
     }
   },
   "membership": {
