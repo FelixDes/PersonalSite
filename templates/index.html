@@ -90,48 +90,44 @@
     </div>
     <div class="main_content">
         <div class="content_panel">
-            <div class="main_content">
-                <div class="content_table_row">
-                    <div class="content_block">
-                        <h2>{{dct["certificates"]["title"]}}</h2>
-                        <div class="inner_content_block">
-                            {% for row in dct["certificates"]["certificates"] %}
-                            <div class="content_table_column">
-                                <h4>{{row["header"]}}</h4>
-                                {{row["time"]}}<br>
-                                {{row["text"]|safe}}
-                            </div>
-                            {%endfor%}
-                        </div>
-                    </div>
+
+            <div class="content_block">
+                <h2>{{dct["grants"]["title"]}}</h2>
+                <div class="inner_content_block">
+                    {% for row in dct["grants"]["grants"] %}
                     <div class="content_table_column">
-                        <div class="content_block">
-                            <h2>{{dct["grants"]["title"]}}</h2>
-                            <div class="inner_content_block">
-                                {% for row in dct["grants"]["grants"] %}
-                                <div class="content_table_column">
-                                    <h4>{{row["header"]}}</h4>
-                                    {{row["time"]}}
-                                </div>
-                                {%endfor%}
-                            </div>
-                        </div>
-                        <div class="content_block">
-                            <h2>{{dct["membership"]["title"]}}</h2>
-                            <div class="inner_content_block">
-                                {% for row in dct["membership"]["memberships"] %}
-                                <div class="content_table_column">
-                                    <h4>{{row["header"]}}</h4>
-                                    {{row["time"]}}
-                                </div>
-                                {%endfor%}
-                            </div>
-                        </div>
+                        <h4>{{row["header"]}}</h4>
+                        {{row["time"]}}
                     </div>
+                    {%endfor%}
+                </div>
+            </div>
+            <div class="content_block">
+                <h2>{{dct["membership"]["title"]}}</h2>
+                <div class="inner_content_block">
+                    {% for row in dct["membership"]["memberships"] %}
+                    <div class="content_table_column">
+                        <h4>{{row["header"]}}</h4>
+                        {{row["time"]}}
+                    </div>
+                    {%endfor%}
+                </div>
+            </div>
+            <div class="content_block">
+                <h2>{{dct["certificates"]["title"]}}</h2>
+                <div class="inner_content_block">
+                    {% for row in dct["certificates"]["certificates"] %}
+                    <div class="content_table_column">
+                        <h4>{{row["header"]}}</h4>
+                        {{row["time"]}}<br>
+                        {{row["text"]|safe}}
+                    </div>
+                    {%endfor%}
                 </div>
             </div>
             <div class="content_block">
                 <h2>{{dct["video"]["title"]}}</h2>
+
                 <div class="inner_content_block">
                     <iframe height="315px" src={{dct["video"]["src"]}}
                             title="YouTube video player" frameborder="0"
