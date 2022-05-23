@@ -125,5 +125,5 @@ form {
     display: flex;
     object-fit: contain;
     flex-shrink: 0;
-    aspect-ratio: 2/1;
+    aspect-ratio: 3/2;
 }

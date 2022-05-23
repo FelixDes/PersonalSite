@@ -747,5 +747,37 @@
         }
       ]
     }
+  },
+  "activities": {
+    "rus": {
+      "title": "Мероприятия",
+      "activities": [
+        {
+          "header": "Конгресс молодых ученых",
+          "text": "Сочи, ФТ Сириус, 2021",
+          "src": "static/assets/logos/logo_sy.png"
+        },
+        {
+          "header": "«Большие вызовы», конкурс научно-технологических проектов",
+          "text": "Победитель 2021, 2020, 2019<br>Сочи, ФТ Сириус, 2019-2021",
+          "src": "static/assets/logos/logo_sir.png"
+        }
+      ]
+    },
+    "eng": {
+      "title": "Activities",
+      "activities": [
+        {
+          "header": "Young Scientists Congress",
+          "text": "Russia, Sirius federal territory, 2021",
+          "src": "static/assets/logos/logo_sy.png"
+        },
+        {
+          "header": "“Big Challenges“, competition of scientific and technological projects",
+          "text": "winner 2021, 2020, 2019<br>Russia, Sirius federal territory, 2019-2021",
+          "src": "static/assets/logos/logo_sir.png"
+        }
+      ]
+    }
   }
 }

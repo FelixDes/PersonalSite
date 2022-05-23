@@ -90,7 +90,6 @@
     </div>
     <div class="main_content">
         <div class="content_panel">
-
             <div class="content_block">
                 <h2>{{dct["grants"]["title"]}}</h2>
                 <div class="inner_content_block">
@@ -172,6 +171,20 @@
                         </div>
                         {%endfor%}
                     </div>
+                </div>
+            </div>
+            <div class="content_block">
+                <h2>{{dct["activities"]["title"]}}</h2>
+                <div class="inner_content_block">
+                    {% for row in dct["activities"]["activities"] %}
+                    <div class="content_table_row" style="align-items: center">
+                        <img class="img_block" src={{row["src"]}} width="80px" alt="photo">
+                        <div class="content_table_column">
+                            <h4>{{row["header"]}}</h4>
+                            {{row["text"]|safe}}
+                        </div>
+                    </div>
+                    {%endfor%}
                 </div>
             </div>
         </div>
