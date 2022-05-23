@@ -83,7 +83,7 @@
       ]
     }
   },
-  "address": {
+  "contacts": {
     "rus": {
       "title": "Адреса",
       "text": [
@@ -92,7 +92,7 @@
       ]
     },
     "eng": {
-      "title": "Addresses",
+      "title": "Contacts",
       "text": [
         "science2000@ya.ru",
         "felixdes@ieee.org"
@@ -141,7 +141,7 @@
       ]
     }
   },
-  "supervisors": {
+  "advisors": {
     "rus": {
       "title": "Руководители",
       "text": [
@@ -149,7 +149,7 @@
       ]
     },
     "eng": {
-      "title": "Supervisors",
+      "title": "Advisors",
       "text": [
         "<u>Professor A.I.Shashkin</u>2021-now"
       ]

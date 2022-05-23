@@ -45,18 +45,18 @@
             <div class="main_content">
                 <div class="content_panel">
                     <div class="content_block">
-                        <h2>{{dct["supervisors"]["title"]}}</h2>
+                        <h2>{{dct["advisors"]["title"]}}</h2>
                         <div class="inner_content_block">
-                            {% for elem in dct["supervisors"]["text"] %}
+                            {% for elem in dct["advisors"]["text"] %}
                             {{elem|safe}}
                             <br>
                             {%endfor%}
                         </div>
                     </div>
                     <div class="content_block">
-                        <h2>{{dct["address"]["title"]}}</h2>
+                        <h2>{{dct["contacts"]["title"]}}</h2>
                         <div class="inner_content_block">
-                            {% for elem in dct["address"]["text"] %}
+                            {% for elem in dct["contacts"]["text"] %}
                             {{elem|safe}}
                             <br>
                             {%endfor%}
@@ -115,18 +115,19 @@
             <div class="content_block">
                 <h2>{{dct["certificates"]["title"]}}</h2>
                 <div class="inner_content_block">
-                    {% for row in dct["certificates"]["certificates"] %}
-                    <div class="content_table_column">
-                        <h4>{{row["header"]}}</h4>
-                        {{row["time"]}}<br>
-                        {{row["text"]|safe}}
+                    <div class="scroll_area" style="height: 300px">
+                        {% for row in dct["certificates"]["certificates"] %}
+                        <div class="content_table_column">
+                            <h4>{{row["header"]}}</h4>
+                            {{row["time"]}}<br>
+                            {{row["text"]|safe}}
+                        </div>
+                        {%endfor%}
                     </div>
-                    {%endfor%}
                 </div>
             </div>
             <div class="content_block">
                 <h2>{{dct["video"]["title"]}}</h2>
-
                 <div class="inner_content_block">
                     <iframe height="315px" src={{dct["video"]["src"]}}
                             title="YouTube video player" frameborder="0"
@@ -138,14 +139,14 @@
         </div>
         <div class="content_panel">
             <div class="content_block">
-                <div class="content_table_row" style="align-items: center" style="align-items: center">
+                <div class="content_table_row" style="align-items: center">
                     <h2>{{dct["articles"]["title"]}}</h2>
                     <div style="padding-left: 20px">
                         {{dct["articles"]["sub_title"]}}
                     </div>
                 </div>
                 <div class="inner_content_block">
-                    <div class="scroll_area">
+                    <div class="scroll_area" style="height: 400px">
                         {% for year in dct["articles"]["articles_for_years"] %}
                         <h4>{{year["year"]}}</h4>
                         {% for article in year["articles"] %}
@@ -162,7 +163,7 @@
             <div class="content_block">
                 <h2>{{dct["reports"]["title"]}}</h2>
                 <div class="inner_content_block">
-                    <div class="scroll_area">
+                    <div class="scroll_area" style="height: 400px">
                         {% for report in dct["reports"]["reports"] %}
                         <div class="text_block">
                             <h2>{{report["header"]}}</h2>
@@ -176,15 +177,17 @@
             <div class="content_block">
                 <h2>{{dct["activities"]["title"]}}</h2>
                 <div class="inner_content_block">
-                    {% for row in dct["activities"]["activities"] %}
-                    <div class="content_table_row" style="align-items: center">
-                        <img class="img_block" src={{row["src"]}} width="80px" alt="photo">
-                        <div class="content_table_column">
-                            <h4>{{row["header"]}}</h4>
-                            {{row["text"]|safe}}
+                    <div class="scroll_area" style="height: 150px">
+                        {% for row in dct["activities"]["activities"] %}
+                        <div class="content_table_row" style="align-items: center">
+                            <img class="img_block" src={{row["src"]}} width="80px" alt="photo">
+                            <div class="content_table_column">
+                                <h4>{{row["header"]}}</h4>
+                                {{row["text"]|safe}}
+                            </div>
                         </div>
+                        {%endfor%}
                     </div>
-                    {%endfor%}
                 </div>
             </div>
         </div>
